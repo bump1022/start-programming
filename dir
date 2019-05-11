@@ -1,0 +1,166 @@
+[33mcommit cde5db12cdc50fcf7566be4b339a2d0a36132b95[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Takashi Kato <paparagikato@gmail.com>
+Date:   Mon May 6 20:01:12 2019 +0900
+
+    second commit
+
+[1mdiff --git a/hello.txt b/hello.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e965047[m
+[1m--- /dev/null[m
+[1m+++ b/hello.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mHello[m
+
+[33mcommit 5e3dfecfdd35097552baedc0baecc91fd6936b1f[m
+Author: Takashi Kato <paparagikato@gmail.com>
+Date:   Mon May 6 18:17:08 2019 +0900
+
+    first commit
+
+[1mdiff --git a/img/Thumbs.db b/img/Thumbs.db[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3add9e6[m
+Binary files /dev/null and b/img/Thumbs.db differ
+[1mdiff --git a/img/back.gif b/img/back.gif[m
+[1mnew file mode 100644[m
+[1mindex 0000000..63aa8a4[m
+Binary files /dev/null and b/img/back.gif differ
+[1mdiff --git a/img/blog.png b/img/blog.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..32cbaf1[m
+Binary files /dev/null and b/img/blog.png differ
+[1mdiff --git a/img/favicon.ico b/img/favicon.ico[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4bc17e2[m
+Binary files /dev/null and b/img/favicon.ico differ
+[1mdiff --git a/img/header.png b/img/header.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9e62ebf[m
+Binary files /dev/null and b/img/header.png differ
+[1mdiff --git a/img/mail.png b/img/mail.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..713af34[m
+Binary files /dev/null and b/img/mail.png differ
+[1mdiff --git a/img/photos.png b/img/photos.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f409dae[m
+Binary files /dev/null and b/img/photos.png differ
+[1mdiff --git a/img/taro.png b/img/taro.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2128133[m
+Binary files /dev/null and b/img/taro.png differ
+[1mdiff --git a/img/welcome.gif b/img/welcome.gif[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ae76ebf[m
+Binary files /dev/null and b/img/welcome.gif differ
+[1mdiff --git a/img/work1.png b/img/work1.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7af9382[m
+Binary files /dev/null and b/img/work1.png differ
+[1mdiff --git a/img/work2.png b/img/work2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8f967d4[m
+Binary files /dev/null and b/img/work2.png differ
+[1mdiff --git a/img/work3.png b/img/work3.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..53ac12d[m
+Binary files /dev/null and b/img/work3.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a7908d5[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,60 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="ja">[m
+[32m+[m[32m  <head>[m
+[32m+[m[32m    <meta charaset="utf-8">[m
+[32m+[m[32m    <title>太郎のポートフォリオサイト</title>[m
+[32m+[m[32m    <link rel="icon" href="img/favicon.ico">[m
+[32m+[m[32m    <meta name="discription" content="太郎のポートフォリオサイトです。">[m
+[32m+[m[32m  </head>[m
+[32m+[m[32m  <body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m      <!--[m
+[32m+[m[32m        ol: <o>rdered <l>ist[m
+[32m+[m[32m        ul:<u>nordered <l>ist[m
+[32m+[m
+[32m+[m[32m        li:<l>ist <i>tem[m
+[32m+[m[32m      -->[m
+[32m+[m[32m      <nav>[m
+[32m+[m[32m        <ul>[m
+[32m+[m[32m          <li>HOME</li>[m
+[32m+[m[32m          <li>ABOUT</li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </nav>[m
+[32m+[m[32m      <img src="img/header.png" width="300" height="130" alt="ヘッダー画像">[m
+[32m+[m[32m    </header>[m
+[32m+[m
+[32m+[m[32m    <section>[m
+[32m+[m[32m      <img src="img/taro.png" width="140" height="140" alt="太郎のアイコン">[m
+[32m+[m[32m      <h1>山田太郎</h1>[m
+[32m+[m[32m      <p>UI/UXデザイナー見習いです</p>[m
+[32m+[m
+[32m+[m[32m      <section>[m
+[32m+[m[32m        <img src="img/work1.png" width="400" height="260" alt="勇者ゲーム">[m
+[32m+[m[32m        <h1>勇者ゲーム</h1>[m
+[32m+[m[32m        <p>楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。</p>[m
+[32m+[m[32m      </section>[m
+[32m+[m
+[32m+[m[32m      <section>[m
+[32m+[m[32m        <img src="img/work2.png" width="400" height="260" alt="宝探しゲーム">[m
+[32m+[m[32m        <h1>宝探しゲーム</h1>[m
+[32m+[m[32m        <p>楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。</p>[m
+[32m+[m[32m      </section>[m
+[32m+[m
+[32m+[m[32m      <section>[m
+[32m+[m[32m        <img src="img/work3.png" width="400" height="260" alt="神経衰弱">[m
+[32m+[m[32m        <h1>神経衰弱</h1>[m
+[32m+[m[32m        <p>楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。楽しいゲームです。</p>[m
+[32m+[m[32m      </section>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m    <footer>[m
+[32m+[m[32m      <ul>[m
+[32m+[m[32m        <li><img src="img/mail.png" width="20" height="20" alt="メール送信"></li>[m
+[32m+[m[32m        <li><img src="img/blog.png" width="20" height="20" alt="ブログサイトへ"></li>[m
+[32m+[m[32m        <li><img src="img/photos.png" width="20" height="20" alt="写真サイトへ"></li>[m
+[32m+[m[32m        <p>(c) Taro Yamada</p>[m
+[32m+[m[32m      </ul>[m
+[32m+[m[32m    </footer>[m
+[32m+[m[32m  </body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/test1.html b/test1.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..08d89b2[m
+[1m--- /dev/null[m
+[1m+++ b/test1.html[m
+[36m@@ -0,0 +1,26 @@[m
+[32m+[m[32m<!DOCTYPE>[m
+[32m+[m[32m<html lang="ja">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m    <body>[m
+[32m+[m[32m      <img src="img/taro.png" height="140" width="140" alt="太郎のアイコン">[m
+[32m+[m[32m      <h1>ちょっとしたテストでございます。</h1>[m
+[32m+[m[32m      <p1>本文です。</p1>[m
+[32m+[m[32m      <h2>なかなかうまくならないもので</h2>[m
+[32m+[m[32m      <p1>こっちに書くとどうなるのかな？</p1>[m
+[32m+[m[32m      文字の大きさは変わらないのですね。あと段落替えはどうやってやるのでしょう[m
+[32m+[m[32m      <h3>どうしたらはやく上達するのでしょうね？</h3>[m
+[32m+[m
+[32m+[m[32m      <!--ol-->[m
+[32m+[m[32m      <ol>[m
+[32m+[m[32m        <li>コンバイン</li>[m
+[32m+[m[32m        <li>カーナビ</li>[m
+[32m+[m[32m        <li>RAD</li>[m
+[32m+[m[32m      </ol>[m
+[32m+[m[32m      <ol reversed start="6">[m
+[32m+[m[32m        <li>コンバイン</li>[m
+[32m+[m[32m        <li>カーナビ</li>[m
+[32m+[m[32m        <li>RAD</li>[m
+[32m+[m[32m      </ol>[m
+[32m+[m[32m    </body>[m
+[32m+[m[32m</html>[m
